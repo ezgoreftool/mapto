@@ -6,7 +6,7 @@ import (
 )
 
 func init() {
-	fmt.Println(".")
+	fmt.Println("")
 }
 
 func MapToJSON(data map[string]interface{}) string {
