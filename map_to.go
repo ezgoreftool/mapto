@@ -2,7 +2,12 @@ package mapto
 
 import (
 	"encoding/json"
+	"fmt"
 )
+
+func init() {
+	fmt.Println(".")
+}
 
 func MapToJSON(data map[string]interface{}) string {
 	jsonPayload, _ := json.Marshal(data)
